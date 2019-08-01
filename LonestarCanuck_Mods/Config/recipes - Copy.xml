@@ -1,0 +1,57 @@
+<configs>
+
+ <append xpath="/recipes" >
+
+<!-- Added Near Death Trauma Kit to remove NDT it is gated behind PerkPhysician level 2 and is expensive -->
+
+	<recipe name="NearDeathTraumaKit" count="1" craft_area="chemistryStation" tags="learnable" >
+		<ingredient name="medicalBloodBag" count="2"/>
+		<ingredient name="medicalFirstAidKit" count="1"/>
+		<ingredient name="drugSteroids" count="1"/>
+		<ingredient name="casinoCoin" count="6666"/>
+	</recipe>
+
+<!-- Add Dye cracting recipes  - need crafting station but not gated -->
+
+	<recipe name="modDyeRed" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="medicalBloodBag" count="1"/>
+	</recipe>
+
+	<recipe name="modDyeGreen" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="resourceYuccaFibers" count="1"/>
+	</recipe>
+
+	<recipe name="modDyeBlack" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="resourceCoal" count="1"/>
+	</recipe>
+
+	<recipe name="modDyeBlue" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="foodCropBlueberries" count="1"/>
+	</recipe>
+
+	<recipe name="modDyeBrown" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="resourceCropCoffeeBeans" count="1"/>
+	</recipe>
+
+	<recipe name="modDyePink" craft_area="chemistryStation" count="1">
+		<ingredient name="resourcePaint" count="1"/>
+		<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+	</recipe>
+
+<!-- Car Battery -->
+<item name="carBattery">
+	<recipe name="carBattery" count="1" craft_time="120" craft_area="workbench">
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceAcid" count="1"/>
+		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="unit_lead" count="50"/>
+	</recipe>
+
+</append>
+
+</configs>
